@@ -1,6 +1,8 @@
 Breakout 2.0 Bricklet
 =====================
 
+**This Bricklet is currently in development**
+
 This repository contains the hardware design files for the Breakout 2.0 Bricklet
 for new Bricklets with 7 pole connector
 
