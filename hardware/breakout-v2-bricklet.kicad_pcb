@@ -15,7 +15,7 @@
   (page A4)
   (title_block
     (title "Breakout Bricklet V2")
-    (date 2017-02-28)
+    (date 2017-03-01)
     (rev 1.0)
     (company "Tinkerforge GmbH")
     (comment 1 "Licensed under CERN OHL v.1.1")
@@ -451,11 +451,11 @@
   )
 
   (module kicad-libraries:CE_5mm (layer B.Cu) (tedit 0) (tstamp 58B5B244)
-    (at 130 94)
-    (fp_text reference VAL (at 0 0) (layer B.SilkS) hide
+    (at 130 94.3 180)
+    (fp_text reference VAL (at 0 0 180) (layer B.SilkS) hide
       (effects (font (size 1.143 1.143) (thickness 0.1778)) (justify mirror))
     )
-    (fp_text value CE_5mm (at 0 0) (layer B.SilkS) hide
+    (fp_text value CE_5mm (at 0 0 180) (layer B.SilkS) hide
       (effects (font (size 1.143 1.143) (thickness 0.1778)) (justify mirror))
     )
     (fp_poly (pts (xy -0.55372 -1.67132) (xy -0.5715 -1.67386) (xy -0.57912 -1.6764) (xy -0.59436 -1.6764)
