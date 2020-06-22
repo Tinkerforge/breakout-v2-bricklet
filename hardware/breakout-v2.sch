@@ -289,8 +289,6 @@ Wire Wire Line
 Wire Wire Line
 	9000 2450 8650 2450
 Wire Wire Line
-	8650 2450 8650 2700
-Wire Wire Line
 	8500 2350 9000 2350
 Wire Wire Line
 	9000 2250 8350 2250
@@ -304,8 +302,6 @@ Wire Wire Line
 	9000 3950 8350 3950
 Wire Wire Line
 	8250 4050 9000 4050
-Wire Wire Line
-	6950 3600 7250 3600
 Text GLabel 5200 4650 0    50   Output ~ 0
 MISO
 Text GLabel 1500 2000 2    50   Output ~ 0
@@ -720,16 +716,16 @@ Wire Wire Line
 	10100 3450 9950 3450
 Wire Wire Line
 	9950 3450 9950 3300
-Text GLabel 6700 3500 0    50   Input ~ 0
+Text GLabel 6700 3200 0    50   Input ~ 0
 CS1
-Text GLabel 6700 3000 0    50   Input ~ 0
+Text GLabel 6700 2700 0    50   Input ~ 0
 CS0
 Text GLabel 6050 2800 0    50   Input ~ 0
 MOSI
 Text GLabel 6050 2900 0    50   Input ~ 0
 CLK
 $Comp
-L tinkerforge:74AHC244 U2
+L tinkerforge:74AHC244_SPEC U2
 U 1 1 5EEE13FC
 P 7600 3150
 F 0 "U2" H 7350 3900 39  0000 C CNN
@@ -740,10 +736,6 @@ F 3 "" H 7600 3150 39  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8200 3000 7950 3000
-Wire Wire Line
-	8200 2150 8200 3000
-Wire Wire Line
 	7950 2900 8350 2900
 Wire Wire Line
 	8350 2250 8350 2900
@@ -751,10 +743,6 @@ Wire Wire Line
 	7950 2800 8500 2800
 Wire Wire Line
 	8500 2800 8500 2350
-Wire Wire Line
-	7950 3200 8250 3200
-Wire Wire Line
-	8250 3200 8250 4050
 Wire Wire Line
 	7950 3300 8350 3300
 Wire Wire Line
@@ -764,38 +752,50 @@ Wire Wire Line
 Wire Wire Line
 	8500 3400 8500 3850
 Wire Wire Line
-	7950 3500 8650 3500
+	7950 3500 8250 3500
 Wire Wire Line
-	8650 3500 8650 3750
-Wire Wire Line
-	7950 2700 8650 2700
-Wire Wire Line
-	6950 3600 6950 3500
-Connection ~ 6950 3500
-Wire Wire Line
-	6950 3500 7250 3500
-Wire Wire Line
-	6700 3500 6950 3500
-Wire Wire Line
-	6800 2700 7250 2700
-Wire Wire Line
-	6800 2700 6800 3200
-Wire Wire Line
-	6700 3000 6950 3000
-Connection ~ 6950 3000
-Wire Wire Line
-	6950 3000 7250 3000
-Wire Wire Line
-	6950 3000 6950 3100
+	7950 2700 8200 2700
 Wire Wire Line
 	7250 3100 6950 3100
-Wire Wire Line
-	6800 3200 7250 3200
-Connection ~ 6800 3200
-Wire Wire Line
-	6800 3200 6800 4650
 Text Notes 10700 2150 0    50   ~ 0
 A
 Text Notes 10700 3750 0    50   ~ 0
 B
+Wire Wire Line
+	6700 2700 6950 2700
+Wire Wire Line
+	6800 3000 7250 3000
+Wire Wire Line
+	6950 3100 6950 2700
+Connection ~ 6950 2700
+Wire Wire Line
+	6950 2700 7250 2700
+Wire Wire Line
+	6800 3000 6800 3500
+Wire Wire Line
+	6700 3200 6950 3200
+Wire Wire Line
+	6800 3500 7250 3500
+Connection ~ 6800 3500
+Wire Wire Line
+	6800 3500 6800 4650
+Wire Wire Line
+	7250 3600 6950 3600
+Wire Wire Line
+	6950 3600 6950 3200
+Connection ~ 6950 3200
+Wire Wire Line
+	6950 3200 7250 3200
+Wire Wire Line
+	7950 3000 8650 3000
+Wire Wire Line
+	8200 2700 8200 2150
+Wire Wire Line
+	8650 2450 8650 3000
+Wire Wire Line
+	7950 3200 8650 3200
+Wire Wire Line
+	8250 3500 8250 4050
+Wire Wire Line
+	8650 3200 8650 3750
 $EndSCHEMATC

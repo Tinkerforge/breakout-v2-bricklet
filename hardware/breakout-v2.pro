@@ -1,4 +1,4 @@
-update=Fr 19 Jun 2020 14:17:30 CEST
+update=Fr 19 Jun 2020 16:54:27 CEST
 version=1
 last_client=pcbnew
 [general]
@@ -244,7 +244,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.2
+Clearance=0.149
 TrackWidth=0.25
 ViaDiameter=0.55
 ViaDrill=0.25
