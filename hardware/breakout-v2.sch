@@ -277,7 +277,7 @@ Wire Wire Line
 	8600 5450 8650 5450
 Text GLabel 3550 5450 0    50   Output ~ 0
 MISO
-Text GLabel 1500 2000 2    50   Output ~ 0
+Text GLabel 1500 2100 2    50   Output ~ 0
 MOSI
 Wire Wire Line
 	4400 3600 5400 3600
@@ -570,7 +570,7 @@ Wire Wire Line
 	1300 2650 1550 2650
 Text GLabel 1500 1900 2    50   Output ~ 0
 CLK
-Text GLabel 1500 2100 2    50   Input ~ 0
+Text GLabel 1500 2000 2    50   Input ~ 0
 MISO
 Wire Wire Line
 	1300 1900 1500 1900
